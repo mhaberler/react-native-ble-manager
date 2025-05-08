@@ -9,6 +9,7 @@ export default ({ config }) => {
   return {
     ...config,
     android: {
+      edgeToEdgeEnabled: true,
       package: 'it.innove.example.ble',
     },
     ios: {
