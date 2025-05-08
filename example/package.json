@@ -6,6 +6,7 @@
   "scripts": {
     "android": "expo run:android",
     "ios": "expo run:ios",
+    "ios-device": "expo run:ios --device",
     "lint": "eslint .",
     "type:check": "tsc -p tsconfig.json --noEmit",
     "start": "expo start",
@@ -14,15 +15,15 @@
   "dependencies": {
     "@react-navigation/native": "^6.1.14",
     "@react-navigation/native-stack": "^6.9.22",
-    "expo": "~52.0.36",
-    "expo-build-properties": "~0.13.2",
-    "expo-splash-screen": "~0.29.22",
-    "expo-status-bar": "~2.0.1",
-    "react": "18.3.1",
-    "react-native": "0.76.7",
+    "expo": "^53.0.0",
+    "expo-build-properties": "~0.14.6",
+    "expo-splash-screen": "~0.30.8",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
     "react-native-ble-manager": "../",
-    "react-native-safe-area-context": "4.12.0",
-    "react-native-screens": "~4.4.0"
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -30,7 +31,7 @@
     "@babel/runtime": "^7.27.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
-    "@types/react": "~18.3.12",
+    "@types/react": "~19.0.10",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
     "eslint": "^8.57.0",
